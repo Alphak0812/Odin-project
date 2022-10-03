@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one{
+    background-color: #1F2937;
+    height: 537px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px;
+}
+.item1a{
+    width: 1152px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item1aa{
+    background-color: yellow;
+    height: 50px;
+    width: 288px;
+}
+.item1ab{
+    background-color: brown;
+    height: 50px;
+    width: 576px;
+}
+.item1b{
+    background-color: green;
+    width: 1152px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item1ba{
+    background-color: black;
+    width: 576px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item1bb{
+    background-color: white;
+    width: 576px;
+    height: 300px;
+}
+.two{
+    background-color: white;
+    height: 494px;
+    width: 1440px;
+}
+.three{
+    background-color: #E6E7EB;
+    height: 430px;
+    width: 1440px;
+}
+.four{
+    background-color: white;
+    height: 354px;
+    width: 1440px;
+}
+.five{
+    background-color: #1F2937;
+    height: 97px;
+    width: 1440px;
+}
