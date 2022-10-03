@@ -33,7 +33,30 @@
     background-color: brown;
     height: 50px;
     width: 576px;
+    display: flex;
+    flex-direction: row;
 }
+.item1aba{
+    background-color:aqua;
+    height: 50px;
+    width: 66px;
+}
+.item1abb{
+    background-color: orange;
+    height: 50px;
+    width: 170px;
+}
+.item1abc{
+    background-color: purple;
+    height: 50px;
+    width: 170px;
+}
+.item1abd{
+    background-color: white;
+    height: 50px;
+    width: 170px;
+}
+
 .item1b{
     background-color: green;
     width: 1152px;
@@ -44,11 +67,23 @@
 }
 .item1ba{
     background-color: black;
-    width: 576px;
+    width: 522px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
+}
+.item1baa{
+    width: 522px;
+    height: 235px;
+    background-color: yellowgreen;
+}
+.item1bab{
+    height: 55px;
+    border-radius: 5px;
+    width: 150px;
+    background-color: rgb(94, 210, 245);
 }
 
 .item1bb{
@@ -61,6 +96,7 @@
     height: 494px;
     width: 1440px;
 }
+
 .three{
     background-color: #E6E7EB;
     height: 430px;
