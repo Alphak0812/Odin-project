@@ -19,46 +19,54 @@
 .item1a{
     width: 1152px;
     height: 50px;
-    background-color: red;
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .item1aa{
-    background-color: yellow;
+    background-color: #1F2937;
     height: 50px;
     width: 288px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 .item1ab{
-    background-color: brown;
+    background-color: #1F2937;
     height: 50px;
     width: 576px;
     display: flex;
     flex-direction: row;
 }
 .item1aba{
-    background-color:aqua;
+    background-color:#1F2937;
     height: 50px;
     width: 66px;
 }
 .item1abb{
-    background-color: orange;
+    background-color: #1F2937;
     height: 50px;
     width: 170px;
+    font-size: 18px;
+    color: #f9faf8;
 }
 .item1abc{
-    background-color: purple;
+    background-color: #1F2937;
     height: 50px;
     width: 170px;
+    font-size: 18px;
+    color: #f9faf8;
 }
 .item1abd{
-    background-color: white;
+    background-color: #1F2937;
     height: 50px;
     width: 170px;
+    font-size: 18px;
+    color: #f9faf8;
 }
 
 .item1b{
-    background-color: green;
+    background-color: #1F2937;
     width: 1152px;
     height: 300px;
     display: flex;
@@ -66,26 +74,35 @@
     justify-content: space-between;
 }
 .item1ba{
-    background-color: black;
+    background-color: #1F2937;
     width: 522px;
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
 }
 .item1baa{
     width: 522px;
     height: 235px;
-    background-color: yellowgreen;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+.textunknown{
+    background-color: #1F2937;
 }
 .item1bab{
     height: 55px;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 150px;
-    background-color: rgb(94, 210, 245);
+    background-color: blue;
+    color: #f9faf8;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: oblique; 
 }
-
 .item1bb{
     background-color: white;
     width: 576px;
@@ -100,7 +117,6 @@
     align-items: center;
     
 }
-
 .item2a{
     height: 138px;
     width: 1152px;
@@ -110,9 +126,6 @@
     align-items: center ;
     justify-content: center;
 }
-
-
-
 .item2aa{
     background-color: white;
     width: 1152px;
@@ -120,7 +133,6 @@
     font-size: 36px;
     text-align: center;
 }
-
 .item2b{
     height: 350px;
     width: 1152px;
@@ -131,7 +143,6 @@
     background-color: white;
     gap: 50px;
 }
-
 .item2ba{
     width: 150px;
     height: 150px;
@@ -160,30 +171,101 @@
     border-radius: 30px;
     background-color: white;
 }
-
 .img2{
     height: 150px;
     width: 150px;
     background-color: white;
     border-radius: 30px;
 }
-
 figcaption{
     background-color: white;
 }
-
 .three{
     background-color: #E6E7EB;
     height: 430px;
     width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937
+}
+.item3a{
+    height: 280px;
+    width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    background-color: #E6E7EB;
+    text-justify: center;
+}
+.item3b{
+    height: 50px;
+    width: 1000px;
+    text-align: end;
+    background-color: #E6E7EB;
+    font-size: 24px;
 }
 .four{
     background-color: white;
     height: 354px;
     width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.item4a{
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 1152px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.item4aa{
+    height: 80px;
+    width: 576px;
+    background-color: #3882f6;
+}
+.firsttext{
+    background-color: #3882f6;
+    font-size: 36px;
+    color:#f9faf8;
+}
+.secondtext{
+    background-color: #3882f6;
+    font-size: 18px;
+    color:#f9faf8;
+}
+.item4ab{
+    height: 55px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: blue;
+    color: #f9faf8;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: oblique; 
+}
+
 .five{
     background-color: #1F2937;
     height: 97px;
     width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.item5a{
+    height: 50px;
+    width: 1440px;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #E6E7EB;
 }
